@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD54A"></stop>
+      <stop offset="1" stop-color="#FFA726"></stop>
+    </linearGradient>
+    <style>.bg {
+  fill: url("#g1");
+}
+
+.num {
+  fill: #2b2b2b;
+  font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+</style>
+  </defs>
+
+  <!-- Tile background -->
+  <rect x="0" y="0" width="1024" height="1024" rx="160" ry="160" class="bg"></rect>
+
+  <!-- Centered text "2048" -->
+  <text x="512" y="640" text-anchor="middle" font-size="400" class="num">2048</text>
+</svg>
+
